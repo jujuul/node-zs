@@ -20,6 +20,11 @@
   resolved "https://registry.npmmirror.com/@inversifyjs/reflect-metadata-utils/-/reflect-metadata-utils-0.2.4.tgz#c65172283db9516c4a27e8d673ca7a31a07d528b"
   integrity sha512-u95rV3lKfG+NT2Uy/5vNzoDujos8vN8O18SSA5UyhxsGYd4GLQn/eUsGXfOsfa7m34eKrDelTKRUX1m/BcNX5w==
 
+"@prisma/client@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.npmmirror.com/@prisma/client/-/client-6.1.0.tgz#179d3b70586e7be522f6f1f0a82cca01396f719a"
+  integrity sha512-AbQYc5+EJKm1Ydfq3KxwcGiy7wIbm4/QbjCKWWoNROtvy7d6a3gmAGkKjK0iUCzh+rHV8xDhD5Cge8ke/kiy5Q==
+
 "@prisma/debug@6.0.1":
   version "6.0.1"
   resolved "https://registry.npmmirror.com/@prisma/debug/-/debug-6.0.1.tgz#8407544dd89c8bf85a6e9889ea263fe0e1ccebe2"
@@ -193,6 +198,11 @@ call-bind@^1.0.7:
     es-define-property "^1.0.0"
     get-intrinsic "^1.2.4"
     set-function-length "^1.2.2"
+
+class-transformer@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.npmmirror.com/class-transformer/-/class-transformer-0.5.1.tgz#24147d5dffd2a6cea930a3250a677addf96ab336"
+  integrity sha512-SQa1Ws6hUbfC98vKGxZH3KFY0Y1lm5Zm0SY8XX9zbK7FJCyVEac3ATW0RIpwzW+oOfmHE5PMPufDG9hCfoEOMw==
 
 class-validator@^0.14.1:
   version "0.14.1"

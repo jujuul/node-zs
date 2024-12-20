@@ -12,3 +12,22 @@ datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
+
+// 编写表结构
+
+// 文章表
+model Post {
+  id       Int    @id @default(autoincrement()) //id 自增
+  title    String
+  content  String
+  author   User?  @relation(fields: [authorId], references: [id])
+  authorId Int?
+}
+
+// 用户表
+model User {
+  id    Int    @id @default(autoincrement()) //id 自增
+  name  String
+  email String
+  posts Post[]
+}

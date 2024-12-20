@@ -16,9 +16,15 @@ export class User {
     res.send(result)
   }
 
-  @Post('create')
-  public createUser(req: Request, res: Response) {
-    let result = this.UserService.createUser()
+  @Post('/create')
+  public async createUser(req: Request, res: Response) {
+    console.log(req.body)
+    let result = await this.UserService.createUser(req.body)
     res.send(result)
+  }
+
+  @Get('getList')
+  public async getList() {
+    // return 
   }
 }
